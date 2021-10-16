@@ -1,0 +1,50 @@
+#wpfooter {
+
+	display: inline-flex;
+	align-content: center;
+}
+
+#footer-left {
+
+	float: none;
+}
+
+#jpcreativemedia-logo {
+
+	align-self: center;
+
+	height: 40px;
+	width: 40px;
+
+	margin-left: 5px;
+
+	order: 3;
+}
+
+#text {
+
+	align-self: center;
+
+	order: 2;
+}
+
+#text a {
+
+	text-decoration: none;
+	color:#4B82BC;
+}
+
+#text a:hover {
+
+	color: #0096dd;
+}
+
+#footer-upgrade {
+	
+	float: none;
+
+	flex: 1 1 0%;
+	align-self: flex-end;
+
+	order: 1;
+}
